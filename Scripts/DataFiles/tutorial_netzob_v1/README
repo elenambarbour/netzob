@@ -1,0 +1,16 @@
+Programme de test contenant des vulnérabilités types.
+
+== Compilation ==
+
+  $ make
+
+
+== Exécution ==
+
+  $ ./server
+
+(...)
+
+  $ ./client
+
+(...)

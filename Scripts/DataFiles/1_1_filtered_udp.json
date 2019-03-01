@@ -1,0 +1,93 @@
+[
+  {
+    "_index": "packets-2019-02-15",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "23",
+          "frame.time": "Dec 10, 2017 16:34:16.685237000 HST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1512959656.685237000",
+          "frame.time_delta": "0.000000000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "0.000000000",
+          "frame.number": "1",
+          "frame.len": "133",
+          "frame.cap_len": "133",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "radiotap:wlan_radio:wlan:llc:ip:udp:data",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+          "eth": {
+          "eth.dst": "00:00:00:00:00:00",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "00:00:00_00:00:00",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:00:00:00:00:00",
+          "eth.src_tree": {
+            "eth.src_resolved": "00:00:00_00:00:00",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800"
+        },      
+ 
+
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x000000c0",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "48",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "47",
+          "ip.id": "0x0000cbad",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0",
+            "ip.frag_offset": "0"
+          },
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0x000098dd",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.42.1",
+          "ip.addr": "192.168.42.1",
+          "ip.src_host": "192.168.42.1",
+          "ip.host": "192.168.42.1",
+          "ip.dst": "192.168.42.33",
+          "ip.addr": "192.168.42.33",
+          "ip.dst_host": "192.168.42.33",
+          "ip.host": "192.168.42.33"
+        },
+        "udp": {
+          "udp.srcport": "55478",
+          "udp.dstport": "9988",
+          "udp.port": "55478",
+          "udp.port": "9988",
+          "udp.length": "27",
+          "udp.checksum": "0x00005eee",
+          "udp.checksum.status": "2",
+          "udp.stream": "0"
+        },
+        "data": {
+          "data.data": "02:7f:c5:13:00:00:00:01:04:08:00:00:00:00:00:00:00:00:00",
+          "data.len": "19"
+        }
+      }
+    }
+  }
+]
